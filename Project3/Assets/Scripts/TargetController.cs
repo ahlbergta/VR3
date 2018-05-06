@@ -14,7 +14,7 @@ public class TargetController : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "PointAffective")
+        if (other.tag != "Inactive")
         {
             points.points += value;
             Destroy(this.gameObject);

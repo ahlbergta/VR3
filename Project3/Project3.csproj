@@ -288,6 +288,7 @@
     <Compile Include="Assets\Scripts\CollisionCounter.cs" />
     <Compile Include="Assets\Scripts\Despawn.cs" />
     <Compile Include="Assets\Scripts\DespawnerController.cs" />
+    <Compile Include="Assets\Scripts\DifficultyController.cs" />
     <Compile Include="Assets\Scripts\LaunchController.cs" />
     <Compile Include="Assets\Scripts\Points.cs" />
     <Compile Include="Assets\Scripts\TargetController.cs" />

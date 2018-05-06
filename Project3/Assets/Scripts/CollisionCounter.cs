@@ -13,7 +13,7 @@ public class CollisionCounter : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.collider.tag == "PointAffective")
+        if(collision.collider.tag != "Inactive")
         {
             points.points++;
         }

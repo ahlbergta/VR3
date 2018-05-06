@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - PointAffective
   - Inactive
+  - Easy
+  - Medium
+  - Hard
+  - PointAffective
+  - Projectile
   layers:
   - Default
   - TransparentFX

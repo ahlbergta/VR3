@@ -14,7 +14,7 @@ public class BonusController : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.collider.tag == "PointAffective")
+        if(collision.collider.tag != "Inactive")
         {
             points.points += value;
             Destroy(this.gameObject);
