@@ -23,13 +23,13 @@ This project implements a physics-based throwing game that will showcase collaps
 
 ## Structures
 
-![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure1.JPG)
+![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure1.PNG)
 
-![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure2.JPG)
+![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure2.PNG)
 
-![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure3.JPG)
+![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure3.PNG)
 
-![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure4.JPG)
+![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure4.PNG)
 
 ## Menu
 
