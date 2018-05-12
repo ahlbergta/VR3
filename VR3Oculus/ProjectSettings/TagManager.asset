@@ -9,6 +9,8 @@ TagManager:
   - Easy
   - Medium
   - Hard
+  - PointAffective
+  - Objective
   layers:
   - Default
   - TransparentFX

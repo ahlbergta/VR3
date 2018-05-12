@@ -486,6 +486,7 @@
     <Compile Include="Assets\Scripts\TargetController.cs" />
     <Compile Include="Assets\Scripts\TextController.cs" />
     <Compile Include="Assets\Scripts\VendorController.cs" />
+    <Compile Include="Assets\Scripts\WinController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\VR\Editor\AndroidManifest.OVRSubmission.xml" />
