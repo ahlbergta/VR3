@@ -14,9 +14,13 @@ public class VendorController : MonoBehaviour {
     public GameObject projectile3;
     private Points points;
 
+    private GameObject insufficient;
+
     // Use this for initialization
     void Start () {
         points = GameObject.Find("PointTracker").GetComponent<Points>();
+        insufficient = GameObject.Find("Text_Insufficient");
+        insufficient.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -29,6 +33,10 @@ public class VendorController : MonoBehaviour {
                 points.points -= cost0;
                 GameObject projectile = Instantiate(projectile0);
             }
+            else
+            {
+                StartCoroutine(Insufficient());
+            }
         }
         if (OVRInput.GetDown(OVRInput.Button.Two) || Input.GetKeyDown(KeyCode.Alpha2))
         {
@@ -37,6 +45,10 @@ public class VendorController : MonoBehaviour {
             {
                 points.points -= cost1;
                 GameObject projectile = Instantiate(projectile1);
+            }
+            else
+            {
+                StartCoroutine(Insufficient());
             }
         }
         if (OVRInput.GetDown(OVRInput.Button.Three) || Input.GetKeyDown(KeyCode.Alpha3))
@@ -47,6 +59,10 @@ public class VendorController : MonoBehaviour {
                 points.points -= cost2;
                 GameObject projectile = Instantiate(projectile2);
             }
+            else
+            {
+                StartCoroutine(Insufficient());
+            }
         }
         if (OVRInput.GetDown(OVRInput.Button.Four) || Input.GetKeyDown(KeyCode.Alpha4))
         {
@@ -55,6 +71,10 @@ public class VendorController : MonoBehaviour {
             {
                 points.points -= cost3;
                 GameObject projectile = Instantiate(projectile3);
+            }
+            else
+            {
+                StartCoroutine(Insufficient());
             }
         }
         /*
@@ -82,5 +102,12 @@ public class VendorController : MonoBehaviour {
                 GameObject projectile = Instantiate(projectile2);
             }
         }*/
+    }
+
+    private IEnumerator Insufficient()
+    {
+        insufficient.SetActive(true);
+        yield return new WaitForSeconds(2);
+        insufficient.SetActive(false);
     }
 }

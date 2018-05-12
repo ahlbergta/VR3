@@ -484,6 +484,7 @@
     <Compile Include="Assets\Scripts\Points.cs" />
     <Compile Include="Assets\Scripts\ProjectileGravityController.cs" />
     <Compile Include="Assets\Scripts\TargetController.cs" />
+    <Compile Include="Assets\Scripts\TextController.cs" />
     <Compile Include="Assets\Scripts\VendorController.cs" />
   </ItemGroup>
   <ItemGroup>
