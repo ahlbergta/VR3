@@ -23,12 +23,16 @@ This project implements a physics-based throwing game that will showcase collaps
 
 ## Structures
 
+### Structure 1
 ![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure1.PNG)
 
+### Structure 2
 ![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure2.PNG)
 
+### Structure 3
 ![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure3.PNG)
 
+### Structure 4
 ![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Structure4.PNG)
 
 ## Menu
@@ -39,4 +43,4 @@ Standard Ball - This is a simple ball that does not cost anything to the user
 Destroyer - Cost 100 points
 Bonus - Cost 150 points
 Bomb - Cost 1000 points
-![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Menu.JPG)
+![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Menu.PNG)
