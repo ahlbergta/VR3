@@ -11,8 +11,8 @@ public class WinController : MonoBehaviour {
         winText = GameObject.Find("Text_Win");
         winText.SetActive(false);
 	}
-	
-	public void CheckWin()
+
+    public void CheckWin()
     {
         if(GameObject.FindGameObjectsWithTag("Objective").Length == 1)
         {

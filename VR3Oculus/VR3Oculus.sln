@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR3Oculus", "VR3Oculus.csproj", "{475B84B9-4432-D2E1-3C8A-6A16D8BE5FD8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR3Oculus.Editor", "VR3Oculus.Editor.csproj", "{4B2786F0-A822-9E24-83F2-F14CEBDF70F0}"
@@ -22,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83705E51-FAC5-4862-B468-29CA69EE6C34}
 	EndGlobalSection
 EndGlobal
