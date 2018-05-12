@@ -1,6 +1,6 @@
 # CS 4331-002 - Virtual Reality Project 3
 
-![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/example.JPG)
+![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/example.PNG)
 
 ## Project Description
 
