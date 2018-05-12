@@ -39,8 +39,8 @@ This project implements a physics-based throwing game that will showcase collaps
 
 The image below is the menu that will display to the user if they win or lose. ALso this displays how much each ball will cost and what key to press on the oculus to buy it. 
 The type of balls:
-Standard Ball - This is a simple ball that does not cost anything to the user
-Destroyer - Cost 100 points
-Bonus - Cost 150 points
-Bomb - Cost 1000 points
+* Standard Ball - This is a simple ball that does not cost anything to the user
+* Destroyer - Cost 100 points
+* Bonus - Cost 150 points
+* Bomb - Cost 1000 points
 ![alt text](https://github.com/ahlbergta/VR3/blob/oculus/images/Menu.PNG)
